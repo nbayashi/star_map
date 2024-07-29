@@ -121,16 +121,6 @@ map.addSource('star_point', {
     }
   });
 
-  map.addLayer({
-    id: 'star_city',
-    type: 'fill',
-    source: 'star_city',
-    paint: {
-      'fill-color': '#fde047',
-      'fill-opacity': 0.2,
-      'fill-outline-color': '#000000',
-    }
-  });
 
   map.addLayer({
     id: 'star_city_outline',
@@ -138,7 +128,7 @@ map.addSource('star_point', {
     source: 'star_city',
     paint: {
       'line-color': '#cffafe',
-      'line-opacity': 0.2,
+      'line-opacity': 0.4,
       'line-width': 5 // アウトラインの太さを設定
     }
   });
